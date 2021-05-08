@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Sums passed integers
+# returns the result on the stdout
 main() {
     local sum=1
 
