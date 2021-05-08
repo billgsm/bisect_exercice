@@ -2,7 +2,7 @@
 
 # Sums passed integers
 # returns the result on the stdout
-main() {
+sum() {
     local sum=1
 
     for num in ${@}
@@ -13,5 +13,14 @@ main() {
     echo ${sum}
 }
 
-main ${@}
+multiply() {
+    local mulplication=1
+
+    for x in ${@}
+    do
+        mulplication=$(( x*mulplication ))
+    done
+
+    echo ${mulplication}
+}
 
