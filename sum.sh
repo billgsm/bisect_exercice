@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 
-sum=0
+main() {
+    local sum=0
 
-for num in ${@}
-do
-    sum=$(( num+sum ))
-done
+    for num in ${@}
+    do
+        sum=$(( num+sum ))
+    done
 
-echo ${sum}
+    echo ${sum}
+}
+
+main ${@}
 
