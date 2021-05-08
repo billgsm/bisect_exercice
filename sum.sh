@@ -2,7 +2,7 @@
 
 # Sums passed integers
 main() {
-    local sum=0
+    local sum=1
 
     for num in ${@}
     do
