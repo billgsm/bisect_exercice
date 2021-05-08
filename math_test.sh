@@ -6,6 +6,6 @@ a=4
 b=3
 c=1
 
-actual=$(bash sum.sh ${a} ${b} ${c})
+actual=$(bash math.sh ${a} ${b} ${c})
 
 [[ "${expected}" = "${actual}" ]]
