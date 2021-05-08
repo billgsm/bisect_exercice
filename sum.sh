@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Sums passed integers
 main() {
     local sum=0
 
